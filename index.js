@@ -7,6 +7,7 @@ function getRepositories() {
 
 function showRepositories(event, data) {
   const repos = JSON.parse(this.responseText);
+  console.log(repos);
   const repoList =
     '<ul>' +
     repos
